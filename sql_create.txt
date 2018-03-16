@@ -1,0 +1,10 @@
+CREATE TABLE `deputados` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(45) DEFAULT NULL,
+  `partido` varchar(45) DEFAULT NULL,
+  `uf` varchar(45) DEFAULT NULL,
+  `situacao` varchar(45) DEFAULT NULL,
+  `endereco` varchar(45) DEFAULT NULL,
+  `gabinete` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
